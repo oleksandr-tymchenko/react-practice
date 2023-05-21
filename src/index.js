@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-
-import {Card} from './compponents/Card'
-
+import{ App} from './App'
+// import {Card} from './compponents/Card'
+// import Counter from './compponents/Counter/Counter'
 // {
     
 //     "id": 1,
@@ -55,7 +55,10 @@ import {Card} from './compponents/Card'
 // console.log('card', )
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(<Card/>)
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        <App  />
+  </React.StrictMode>)
 // import ReactDOM from 'react-dom/client';
 // import './index.css';
 
